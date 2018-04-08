@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100%;
+}
+/*main¿ªÊ¼*/
+.main-box{
+    width: 642px;
+    height: 416px;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.main-box .main-title{
+    width: 282px;
+    height:60px;
+    margin-left: 18px;
+}
+.main-box .main-inner{
+    width: 642px;
+    height:298px;
+    padding-top: 38px;
+    background: url(../images/mainbg.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main-box .main-inner .inner-left{
+    float: left;
+    height: 100%;
+}
+.main-inner .inner-left .inner-title{
+    margin-left: 60px;
+}
+.inner-left form .form-group:nth-child(1){
+    margin-top: 22px!important;
+}
+.inner-left form .form-group{
+    margin-left: 62px;
+    margin-top: 8px;
+}
+.inner-left form .form-group .title-detail{
+    font-size: 12px;
+    color: #fff;
+}
+.form-group input{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #247876;
+}
+.form-group input::-webkit-input-placeholder{
+    font-size: 12px;
+    font-family: 'Simsun';
+    color: #8d8d8d;
+}
+.form-group input:focus{
+    outline: none;
+}
+#yzm-input{
+    width: 130px!important;
+}
+.form-group .forget-pass,.form-group .form-tip{
+    font-family: 'Simsun';
+    font-size: 12px;
+    color: #007675;
+    margin-left: 5px;
+}
+.form-group .form-tip{
+    color: #a50000;
+}
+.save-pass{
+    margin-top: 6px;
+    margin-left: 110px;
+}
+.save-pass label{
+    font-family: 'Simsun';
+    font-size: 12px;
+    color: #007675;
+    margin-top: -3px;
+}
+.btn-all{
+    overflow: hidden;
+    margin-top: 12px;
+}
+.btn-all .login-btn,.btn-all .reset-btn{
+    cursor: pointer;
+    float: left;
+    width: 91px;
+    height: 40px;
+    background: url(../images/login.png) no-repeat;
+    background-size: 100%;
+}
+.btn-all .login-btn{
+    margin-left: 114px;
+}
+.btn-all .reset-btn{
+    background: url(../images/reset.png) no-repeat;
+    margin-left: 30px;
+}
+.main-inner .inner-right{
+    float: right;
+}
+.inner-right .ewm-img{
+    margin-right: 48px;
+    margin-top: 54px;
+}
+.inner-right .ewm-text{
+    width: 134px;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+}

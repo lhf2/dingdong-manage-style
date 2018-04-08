@@ -1,0 +1,226 @@
+body,html{
+    background: #F1F1F1;
+}
+/*main*/
+.panel-body .panel-detail{
+    /*width: 100%;*/
+    height: 40px;
+    overflow: hidden;
+    margin-left: 24px;
+}
+.panel-detail .panel-date,.panel-detail .panel-state,.panel-detail .panel-type,.panel-detail .panel-search{
+    float: left;
+}
+.panel-detail .panel-num{
+    float: right;
+    margin-right: 20px;
+}
+.panel-detail .panel-statecur{
+    margin-left: 20px!important;
+}
+.panel-detail .panel-searchcur{
+    float: right!important;
+    margin-right: 20px;
+}
+.panel-detail .panel-date span,.panel-detail .panel-state span,.panel-detail .panel-type span,.panel-detail .panel-search span,.panel-detail .panel-num span{
+    font-size: 12px;
+    font-family: 'Simsun';
+    color: #666;
+    line-height: 40px;
+}
+.panel-detail .panel-date input[type='date']{
+    width: 42px;
+}
+.panel-detail .panel-state,.panel-detail .panel-type,.panel-detail .panel-search{
+    margin-left: 10px;
+}
+.panel-detail .panel-state select,.panel-detail .panel-type select{
+    width: 85px;
+    height: 20px;
+}
+.panel-detail .panel-search input[type='text']{
+    width: 146px;
+    height: 20px;
+    padding: 0 6px;
+    border: 1px solid #00a7a5;
+}
+.panel-detail .panel-search input[type='text']::-webkit-input-placeholder{
+    font-family: 'Simsun';
+    font-size: 12px;
+    color: #999;
+}
+.panel-detail .panel-search{
+    width: 160px;
+    margin-top: 8px;
+    position: relative;
+}
+.panel-detail .panel-search .search-btn{
+    width: 33px;
+    height: 21px;
+    cursor: pointer;
+    background: #00a7a5;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top:0;
+    right: 0px;
+}
+.panel-search .search-btn img{
+    display: block;
+    margin-left: 10px;
+    margin-top: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+.panel-detail .panel-num{
+    margin-left: 10px;
+}
+.panel-num .panel-list{
+    margin-left: 5px;
+}
+.panel-body table{
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 36px;
+    text-align: center;
+}
+.panel-body table tr{
+    height: 36px;
+}
+.panel-body table thead tr{
+    background: #F8F8F8;
+}
+.panel-body table tbody tr:nth-child(even){
+    background: #F8F8F8;
+}
+.panel-body table tbody tr td{
+    /*width: 40px;*/
+    font-family: 'Simsun';
+    font-size: 12px;
+    color: #464646;
+}
+table .td-btn .look-btn,table .td-btn .edit-btn,table .td-btn .edit-btn1{
+    display: inline-block;
+    width: 56px;
+    height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    background: #00a7a5;
+    line-height: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+.panel-body .page-box{
+    overflow: hidden;
+    height: 48px;
+    background: #f8f8f8;
+}
+.panel-body .page-box .page-all,.panel-body .page-box .page-btn{
+    float: left;
+}
+.panel-body .page-box .page-num{
+    float: right;
+}
+.page-box .page-num .page-detail i{
+    color: #00a4a5;
+}
+.panel-body .page-box .page-num div{
+    float: left;
+    line-height: 48px;
+}
+.page-box .page-all{
+    margin-left: 20px;
+    font-family: 'Microsoft YaHei';
+    color: #333;
+    font-size: 14px;
+    line-height: 48px;
+}
+.page-all span{
+    cursor: pointer;
+}
+.page-box .page-all .cur{
+    color: #00a4e5;
+}
+.page-box .page-btn{
+    margin-left: 10px;
+}
+.page-box .page-btn .page-list-btn{
+    display: inline-block;
+    width: 38px;
+    height: 18px;
+    background: #00a4e5;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.page-num .page-forward{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.page-num .page-forward input[type='text']{
+    width: 22px;
+    height: 18px;
+    background: #f8f8f8;
+    text-align: center;
+    border: 1px solid #cfcfcf;
+}
+.page-num .forward-btn{
+    width: 38px;
+    height: 18px;
+    background: #00a4e5;
+    text-align: center;
+    line-height:18px!important;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Simsun';
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.panel-body table tbody tr td:nth-child(1){
+    width: 45px;
+}
+.input-61{
+    width: 61px;
+}
+.input-85{
+    width: 85px;
+}
+.input-138{
+    width: 138px;
+}
+.input-76{
+    width: 76px;
+}
+.input-60{
+    width: 60px;
+}
+.input-46{
+    width: 46px;
+}
+.input-108{
+    width: 108px;
+}
+.input-71{
+    width: 71px;
+}
+.input-99{
+    width: 99px;
+}
+.input-54{
+    width: 54px;
+}
+.input-89{
+    width: 89px;
+}
+.input-126{
+    width: 126px;
+}
+.panel-body table tbody tr td input[type='text']{
+    width: 100%;
+    height: 28px;
+}

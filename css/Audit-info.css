@@ -1,0 +1,135 @@
+/*main*/
+.info-box {
+    margin-left: 70px;
+}
+.info-box .info-title {
+    margin-top: 20px;
+    color: #333;
+    font-size:18px;
+    margin-left: 35px;
+}
+.info-box .form-group1 {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.info-box .form-group1 .form-name {
+     width: 120px;
+     text-align: right;
+     font-size: 14px;
+     line-height: 30px;
+     color: #333;
+     font-family: 'SimSun';
+     float: left;
+ }
+.info-box .form-group1 input[type='text'], .info-box .form-group1 input[type='tel'] {
+    float: left;
+    padding: 0 10px;
+    width: 280px;
+    height: 30px;
+    color: #464646;
+    font-size: 12px;
+}
+input[type='file'] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.form-right {
+    width: 330px;
+    float: left;
+}
+.form-choseimg {
+    overflow: hidden;
+}
+.form-choseimg .add-btn {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.form-choseimg .add-btn img{
+    cursor: pointer;
+}
+.form-choseimg .add-btn:nth-child(1) {
+    margin-left: 0;
+}
+.choseimg-detail p:nth-child(1) {
+    margin-top: 10px;
+    color: #42B747;
+}
+.choseimg-detail p {
+    color: #999;
+    font-size: 12px;
+    font-family: 'SimSun';
+    margin-top: 8px;
+}
+.form-group1 .form-tip{
+    float: left;
+    color: #999999;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.form-group1 .form-right1{
+    width: 305px;
+    overflow: hidden;
+}
+.form-group1 .form-right1 .input-60{
+    padding: 0 10px!important;
+    height: 30px!important;
+    width: 40px!important;
+}
+.form-right1 .input-60:nth-child(1){
+    margin-right: 10px;
+}
+.form-group1 textarea{
+    width: 280px;
+    height: 40px;
+    padding: 10px;
+    resize: none;
+}
+.form-group1 .check-text{
+    margin-left: 120px;
+    margin-top:8px;
+}
+.form-group1 .input-180{
+    width: 160px!important;
+    height: 30px!important;
+    padding: 0 10px!important;
+}
+.check-out {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.check-out .check-box {
+    width: 60px;
+    float: left;
+}
+.btn-box{
+    overflow: hidden;
+    margin-left: 164px;
+    margin-top: 34px;
+}
+.btn-box .btn-list{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    float: left;
+    background: #1ebca4;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn-box .btn-list:nth-last-child(1){
+    background: #31333a;
+}

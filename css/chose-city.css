@@ -1,0 +1,165 @@
+body,html{
+    background: #fff;
+}
+.city-box{
+    width: 530px;
+    height: 562px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    background: linear-gradient(#ffffff 0%,#fefefe 10%,#fdfdfd 20%,#fcfcfc 30%,#fbfbfb 40%,#fafafa 50%,#f9f9f9 60%,#f8f8f8 70%,#f7f7f7 80%,#f6f6f6 90%,#f5f5f5 100%);
+    box-shadow: 0 0 10px #333;
+}
+.city-box .city-title{
+    width: 100%;
+    height: 40px;
+    background: #343434;
+}
+.city-box .city-title span{
+    font-size: 16px;
+    font-family: 'Simsun';
+    color: #fff;
+    margin-left: 18px;
+    line-height: 40px;
+}
+.city-box .city-content{
+    width: 486px;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+.city-content .city-con-title{
+    height: 34px;
+    background: #C1C1C1;
+    padding: 0 14px;
+    line-height: 34px;
+}
+.city-content .city-con-title .city-con-left{
+    font-family: 'Simsun';
+    font-size: 12px;
+    color: #464646;
+    float: left;
+}
+.city-con-title .city-con-right{
+    float: right;
+}
+.city-con-all{
+    height: 410px;
+    overflow: auto;
+}
+.city-con-all .city-all-list{
+    margin-top:18px;
+    margin-left: 12px;
+}
+.city-con-all .city-all-list p{
+    margin-top: 10px;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+.city-con-all .city-all-list h1{
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    color: #333;
+}
+.city-con-all .city-all-list p span{
+    font-family: 'Simsun';
+    font-size: 12px;
+    color: #323232;
+    font-weight: bold;
+}
+.city-con-all .city-all-list:nth-child(1){
+    margin-top: 6px;
+}
+/*µ¯´°*/
+.search-city{
+    width: 470px;
+    height: 218px;
+    background: linear-gradient(#ffffff 0%,#fefefe 10%,#fdfdfd 20%,#fcfcfc 30%,#fbfbfb 40%,#fafafa 50%,#f9f9f9 60%,#f8f8f8 70%,#f7f7f7 80%,#f6f6f6 90%,#f5f5f5 100%);
+    box-shadow: 0 0 10px #333;
+    position: absolute;
+    left: 120px;
+    top:150px;
+    display: none;
+}
+.search-city .search-citytitle{
+    width: 100%;
+    height: 40px;
+    background: #c1c1c1;
+    line-height: 40px;
+}
+.search-city .search-citytitle .sc-text{
+    font-size: 16px;
+    font-family: 'Simsun';
+    color: #333;
+    margin-left: 18px;
+}
+.search-citytitle .sc-close{
+    cursor: pointer;
+    float: right;
+    margin-right: 18px;
+}
+.search-city .search-input{
+    width: 314px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+.search-input input{
+    width: 220px;
+    padding: 0 15px;
+    height:37px;
+    border: 1px solid #c1c1c1;
+    background: none;
+    font-family: 'Simsun';
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+.search-input .search-btn{
+    width: 62px;
+    height: 100%;
+    background: #01a6a5;
+    text-align: center;
+    line-height: 38px;
+    font-family: 'Simsun';
+    font-size: 14px;
+    color: #333;
+    float: left;
+    cursor: pointer;
+}
+.search-city .search-result{
+    display: none;
+}
+.search-city .search-result .seresu-text{
+    margin-top: 50px;
+    font-family: 'Simsun';
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.search-result .seresu-btn{
+    width: 132px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+.search-city .search-result .seresu-btn .seresu-btnlist{
+    background: #1FBCA6;
+    width: 56px;
+    height: 28px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Simsun';
+    font-size: 14px;
+    float: left;
+    cursor:pointer;
+}
+.seresu-btn .seresu-btnlist:nth-child(1){
+    margin-right: 20px;
+}
