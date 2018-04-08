@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>驾校浏览量</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/Driving-list.css"/>
+    <link rel="stylesheet" href="../css/Driving-adv.css"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+</head>
+<body>
+<div class="right-top">
+    <div class="loc-detail">
+        <span><img src="../images/home.png" alt=""/></span>
+        <span class="loc-text">您当前的位置：驾校管理>驾校浏览量</span>
+    </div>
+    <div class="loc-time">2015年10月24日  16:29:10</div>
+</div>
+<div class="panel-body">
+    <div class="panel-title">驾校浏览量</div>
+    <div class="panel-detail">
+        <div class="panel-date">
+            <span>申请日期:</span>
+            <input type="date"/>-<input type="date"/>
+        </div>
+        <div class="panel-state panel-statecur">
+            <span>状态:</span>
+            <select name="" id="state">
+                <option value="1">待审核</option>
+            </select>
+        </div>
+        <div class="panel-type">
+            <span>合作类型:</span>
+            <select name="" id="type">
+                <option value="1">授权代理</option>
+            </select>
+        </div>
+        <div class="panel-search panel-searchcur">
+            <input type="text" placeholder="请输入查找驾校名"/>
+            <span class="search-btn">
+                <img src="../images/search.png" alt=""/>
+            </span>
+        </div>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th><input type="checkbox">ID</th>
+            <th>驾校名称</th>
+            <th>今日</th>
+            <th>本周</th>
+            <th>本月</th>
+            <th>浏览量</th>
+            <th>评价</th>
+            <th>备注</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <input type="checkbox">1024
+            </td>
+            <td class="td-input">海淀驾校</td>
+            <td class="td-input">5</td>
+            <td class="td-input">35</td>
+            <td class="td-input">100</td>
+            <td class="td-input">521</td>
+            <td class="td-input">1007</td>
+            <td class="td-input">暂时没促销活动，报名量降低</td>
+            <td class="td-btn">
+                <span class="look-btn look-btn1">查看</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">1024
+            </td>
+            <td class="td-input">海淀驾校</td>
+            <td class="td-input">5</td>
+            <td class="td-input">35</td>
+            <td class="td-input">100</td>
+            <td class="td-input">521</td>
+            <td class="td-input">1007</td>
+            <td class="td-input">暂时没促销活动，报名量降低</td>
+            <td class="td-btn">
+                <span class="look-btn look-btn1">查看</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="page-box">
+        <div class="page-num">
+            <div class="page-detail">共<i>21</i>条记录,1/5页</div>
+            <div class="tcdPageCode"><span class="current">1</span><a href="javascript:;" class="tcdNumber">2</a><a href="javascript:;" class="tcdNumber">3</a><a href="javascript:;" class="tcdNumber">4</a><a href="javascript:;" class="tcdNumber">5</a></div>
+            <div class="page-forward">
+                到第
+                <input type="text" placeholder="5"/>页
+            </div>
+            <div class="forward-btn">前往</div>
+        </div>
+    </div>
+</div>
+<!--弹窗-->
+<div class="mask-box"></div>
+<div class="Application-Details Application-Details-tj">
+    <div class="appli-title">
+        <div class="appli-tj">
+            <span class="tj-name">海淀驾校</span>
+            <span class="tj-num">浏览量:521</span>
+            <select name="" id="">
+                <option value="1">本月</option>
+                <option value="1">本周</option>
+                <option value="1">今日</option>
+                <option value="1">浏览量</option>
+            </select>
+            <span class="tj-time">2016-06-07至2016-07-06</span>
+        </div>
+        <span class="appli-close">
+            <img src="../images/close.png" alt=""/>
+        </span>
+    </div>
+    <div class="wrapper">
+        <div id="jqChart"></div>
+    </div>
+</div>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/echarts.common.min.js"></script>
+<script src="../js/index.js"></script>
+<script lang="javascript" type="text/javascript">
+    var myChart = echarts.init(document.getElementById('jqChart'));
+    var option = {
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data:['本日','本周','本月','浏览量']
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type : 'value',
+                max:180,
+                min:0,
+                axisLabel : {
+                    //interval:0,
+                    formatter: '{value} 人'
+                },
+                splitNumber:10
+            }
+        ],
+        yAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['1号','5号','10号','15号','20号','25号','30号']
+        },
+        series: [
+            {
+                name:'本日',
+                type:'line',
+//                stack: '总量',
+                data:[20, 46, 68, 79, 80, 96,115]
+            },
+            {
+                name:'本周',
+                type:'line',
+//                stack: '总量',
+                data:[22, 46, 68, 80, 56, 156, 164]
+            },
+            {
+                name:'本月',
+                type:'line',
+//                stack: '总量',
+                data:[15, 47, 86, 93, 118, 107,154]
+            },
+            {
+                name:'浏览量',
+                type:'line',
+//                stack: '总量',
+                data:[32, 85, 95,145,53,118, 174]
+            }
+        ]
+    };
+    myChart.setOption(option);
+</script>
+</body>
+</html>

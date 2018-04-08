@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>驾校广告申请</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/Driving-list.css"/>
+    <link rel="stylesheet" href="../css/Driving-adv.css"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+</head>
+<body>
+<div class="right-top">
+    <div class="loc-detail">
+        <span><img src="../images/home.png" alt=""/></span>
+        <span class="loc-text">您当前的位置：驾校管理>驾校广告申请</span>
+    </div>
+    <div class="loc-time">2015年10月24日  16:29:10</div>
+</div>
+<div class="panel-body">
+    <div class="panel-title">驾校广告申请</div>
+    <div class="panel-detail">
+        <div class="panel-date">
+            <span>申请日期:</span>
+            <input type="date"/>-<input type="date"/>
+        </div>
+        <div class="panel-state panel-statecur">
+            <span>状态:</span>
+            <select name="" id="state">
+                <option value="1">待审核</option>
+            </select>
+        </div>
+        <div class="panel-search panel-searchcur">
+            <input type="text" placeholder="请输入查找姓名"/>
+            <span class="search-btn">
+                <img src="../images/search.png" alt=""/>
+            </span>
+        </div>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th><input type="checkbox">ID</th>
+            <th>申请机构</th>
+            <th>申请位置</th>
+            <th>申请时间</th>
+            <th>发布日期</th>
+            <th>费用</th>
+            <th>备注</th>
+            <th>状态</th>
+            <th>审核人</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <input type="checkbox">1024
+            </td>
+            <td class="td-input">海淀驾校</td>
+            <td class="td-input">推荐驾校</td>
+            <td class="td-input">2016.08.20至2016.09.30</td>
+            <td class="td-input">2016.8.26</td>
+            <td class="td-input">免费</td>
+            <td class="td-input">没有证件照</td>
+            <td class="td-input">待审核</td>
+            <td class="td-input">王小二</td>
+            <td class="td-btn">
+                <span class="look-btn look-btn1">查看详情</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">1024
+            </td>
+            <td class="td-input">海淀驾校</td>
+            <td class="td-input">推荐驾校</td>
+            <td class="td-input">2016.08.20至2016.09.30</td>
+            <td class="td-input">2016.8.26</td>
+            <td class="td-input">免费</td>
+            <td class="td-input">没有证件照</td>
+            <td class="td-input">待审核</td>
+            <td class="td-input">王小二</td>
+            <td class="td-btn">
+                <span class="look-btn look-btn1">查看详情</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="page-box">
+        <div class="page-all">
+            <span class="cur">全选</span>&nbsp;/&nbsp;<span>取消</span>
+        </div>
+        <div class="page-btn">
+            <span class="pass-btn page-list-btn">通过</span>
+            <span class="refuse-btn page-list-btn">拒绝</span>
+            <span class="del-btn page-list-btn">删除</span>
+        </div>
+        <div class="page-num">
+            <div class="page-detail">共<i>21</i>条记录,1/5页</div>
+            <div class="tcdPageCode"><span class="current">1</span><a href="javascript:;" class="tcdNumber">2</a><a href="javascript:;" class="tcdNumber">3</a><a href="javascript:;" class="tcdNumber">4</a><a href="javascript:;" class="tcdNumber">5</a></div>
+            <div class="page-forward">
+                到第
+                <input type="text" placeholder="5"/>页
+            </div>
+            <div class="forward-btn">前往</div>
+        </div>
+    </div>
+</div>
+<!--弹窗-->
+<div class="mask-box"></div>
+<div class="Application-Details">
+    <div class="appli-title">
+        <span class="appli-text">申请详情</span>
+        <span class="appli-close">
+            <img src="../images/close.png" alt=""/>
+        </span>
+    </div>
+    <ul class="appli-data">
+        <li class="data-list">申请机构：海淀驾校</li>
+        <li class="data-list">费用：免费</li>
+        <li class="data-list">申请位置：驾校置顶</li>
+        <li class="data-list">联系人：XXX</li>
+        <li class="data-list">申请时间：2016.08.20至2016.09.30</li>
+        <li class="data-list">电话：13467474279</li>
+        <li class="data-list">发布城市：北京</li>
+        <li class="data-list">备注：</li>
+    </ul>
+    <div class="appli-content">
+        <div class="appli-con-title">申请内容：</div>
+        <div class="appli-con-img">
+            <img src="../images/aplcon.png" alt=""/>
+        </div>
+        <div class="appli-btn">
+            <span class="btn-detail">审批：</span>
+            <ul class="aplbtn-all">
+                <li class="aplbtn-list">通过</li>
+                <li class="aplbtn-list">拒绝</li>
+                <li class="aplbtn-list">延迟</li>
+                <li class="aplbtn-list">删除</li>
+            </ul>
+            <span class="apl-person">审批人：当前账号人员</span>
+        </div>
+    </div>
+    <div class="confim-btn">确定</div>
+</div>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

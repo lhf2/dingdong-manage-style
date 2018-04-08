@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>审核信息</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/Audit-info.css"/>
+</head>
+<body>
+<div class="right-top">
+    <div class="loc-detail">
+        <span><img src="../images/home.png" alt=""/></span>
+        <span class="loc-text">您当前的位置：驾校管理>驾校列表>审核信息</span>
+    </div>
+    <div class="loc-time">2015年10月24日  16:29:10</div>
+</div>
+<div class="panel-body">
+    <!--<iframe src="" frameborder="0"></iframe>-->
+    <div class="panel-title">审核信息</div>
+    <form action="" method="post" class="register-form" style="padding-bottom: 80px; display: block;">
+        <div class="info-box">
+            <div class="info-title">企业信息:</div>
+            <div class="form-group1">
+                <div class="form-name">驾校名称：</div>
+                <input type="text" placeholder="请填写与营业执照一致的合法公司全称" value="北京红星汽车管理培训有限公司">
+            </div>
+            <div class="form-group1">
+                <div class="form-name">驾校简称：</div>
+                <input type="text" placeholder="请填写与营业执照一致的合法公司简称" value="红星驾校（显示在APP端）">
+            </div>
+            <div class="form-group1">
+                <div class="form-name">营业执照注册号：</div>
+                <input type="text" value="1342423423424">
+            </div>
+            <div class="form-group1">
+                <div class="form-name">营业执照照片：</div>
+                <div class="form-right">
+                    <ul class="form-choseimg">
+                        <li class="add-btn">
+                            <img src="../images/add.png" alt="">
+                            <input type="file" accept="image/*">
+                        </li>
+                        <li class="add-btn">
+                            <img src="../images/add.png" alt="">
+                            <input type="file" accept="image/*">
+                        </li>
+                        <li class="add-btn">
+                            <img src="../images/add.png" alt="">
+                            <input type="file" accept="image/*">
+                        </li>
+                    </ul>
+                    <div class="choseimg-detail">
+                        <p>上传图片实例</p>
+                        <p>1.2M以内，JPG/PNG格式的图片</p>
+                        <p>2.我司资质验证系统已与工商部门联网，请勿提供虚假证件</p>
+                        <p>3.上传道路运输经营许可证和营业执照</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--联系方式-->
+        <div class="info-box">
+            <div class="info-title contact-title">联系方式:</div>
+            <div class="form-group1">
+                <div class="form-name">联系人：</div>
+                <input type="text" value="陈陈的">
+            </div>
+            <div class="form-group1">
+                <div class="form-name">手机号码：</div>
+                <input type="tel" placeholder="请填写可以联系您的电话" value="13232323223">
+                <div class="form-tip">
+                    <span>提示：手机号和邮箱同时接收推送消息</span>
+                </div>
+            </div>
+            <div class="form-group1">
+                <div class="form-name">电子邮箱：</div>
+                <input type="tel" placeholder="请填写有效的电子邮箱，用于接收平台审核通知等" value="126374859@qq.com">
+            </div>
+            <div class="form-group1">
+                <div class="form-name">联系地址：</div>
+                <div class="form-right1">
+                    <input type="text" class="input-60" value="北京市"/>
+                    <input type="text" class="input-60" value="海淀区"/>
+                    <input type="text" value="首体南路20号国兴家园7号楼" style="margin-top: 10px">
+                </div>
+            </div>
+        </div>
+        <!--审核备注-->
+        <div class="info-box">
+            <div class="info-title contact-title">审核备注:</div>
+            <div class="form-group1">
+                <div class="form-name">备注信息：</div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="没有证件照需要上传"></textarea>
+                <div class="check-text">
+                    <input type="checkbox" id="check-text"/>
+                    <label for="check-text">备注发送到申请者邮箱</label>
+                </div>
+            </div>
+            <div class="form-group1">
+                <div class="form-name">审核人：</div>
+                <input type="tel" class="input-180" placeholder="默认为该账号姓名，可修改">
+            </div>
+            <div class="form-group1">
+                <div class="form-name">合作类型：</div>
+                <div class="check-out">
+                    <div class="check-box">
+                        <input type="checkbox" id="type1">
+                        <label for="type1">认证</label>
+                    </div>
+                    <div class="check-box">
+                        <input type="checkbox" id="type2">
+                        <label for="type2">授权</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="btn-box">
+            <li class="btn-list">通过</li>
+            <li class="btn-list">拒绝</li>
+            <li class="btn-list">删除</li>
+            <li class="btn-list">确定</li>
+        </ul>
+    </form>
+</div>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
