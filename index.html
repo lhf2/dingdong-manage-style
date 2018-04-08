@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>叮咚学车后台管理系统</title>
+    <link rel="stylesheet" href="css/lhf-base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!--main开始-->
+<div class="main-box">
+    <div class="main-title">
+        <img src="images/title.png" alt=""/>
+    </div>
+    <div class="main-inner">
+        <div class="inner-left">
+            <div class="inner-title">
+                <img src="images/person.png" alt=""/>
+            </div>
+            <form action="" id="login-form">
+                <div class="form-group">
+                    <span class="title-detail">用户名：</span>
+                    <input type="text" placeholder="请输入用户名"/>
+                </div>
+                <div class="form-group">
+                    <span class="title-detail">密&nbsp;&nbsp;&nbsp;码：</span>
+                    <input type="text" placeholder="请输入密码"/>
+                    <span class="forget-pass">忘记密码？</span>
+                </div>
+                <div class="form-group">
+                    <span class="title-detail">验证码：</span>
+                    <input type="text" id="yzm-input" placeholder="请输入验证码"/>
+                    <span class="form-tip">用户名或密码不正确！</span>
+                </div>
+                <div class="save-pass">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">保存密码</label>
+                </div>
+                <div class="btn-all">
+                    <div class="login-btn"></div>
+                    <div class="reset-btn"></div>
+                </div>
+            </form>
+        </div>
+        <div class="inner-right">
+            <div class="ewm-img">
+                <img src="images/ewm.png" alt="">
+            </div>
+            <div class="ewm-text">扫描二维码登录</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
