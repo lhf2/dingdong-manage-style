@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人面板</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/personal-panel.css"/>
+</head>
+<body>
+<!--main开始-->
+<div class="main-box">
+    <div class="main-left">
+        <div class="main-person">
+            <div class="person-circle">xxx</div>
+            <div class="person-detail">
+                <p>您好！</p>
+                <p>欢迎登录</p>
+            </div>
+        </div>
+        <div class="main-cur">
+            <div class="main-curall">
+                <span class="cur-img"><img src="../images/Address_Book.png" alt=""/></span>
+                <span class="cur-text">个人面板</span>
+            </div>
+            <div class="cur-list cur">
+                <a href="person-info.html" target="mainFrame">
+                    <span class="cur-square"></span>
+                    <span class="curlist-text">修改个人信息</span>
+                </a>
+            </div>
+            <div class="cur-list">
+                <a href="person-pass.html" target="mainFrame">
+                    <span class="cur-square"></span>
+                    <span class="curlist-text">修改个人密码</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="main-right">
+        <iframe width="100%" height="100%" src="person-info.html" name="mainFrame" id="mainFrame" frameborder="no" scrolling="auto" hidefocus=""></iframe>
+    </div>
+</div>
+<!--弹窗开始-->
+<div class="mask-box"></div>
+<div class="alert-box">
+    <div class="alert-detail">
+        <div class="alert-img">
+            <img src="../images/Avatar_ashung.png" alt=""/>
+        </div>
+        <div class="alert-text">
+            <p class="name">XXX您好！</p>
+            <p class="adr">
+                <span class="adr-img">
+                    <img src="../images/icon_addr.png" alt=""/>
+                </span>
+                <span class="adr-text">北京海淀区首体南路20号</span>
+            </p>
+        </div>
+    </div>
+    <ul class="alert-content">
+        <li class="alertcon-list">
+            <span class="sch-name">XX驾校</span>
+            <span class="sch-time">2016.09.20</span>
+            <span class="sch-state">待审核</span>
+            <span class="sch-detail">查看详情 ></span>
+        </li>
+        <li class="alertcon-list">
+            <span class="sch-name">XX驾校</span>
+            <span class="sch-time">2016.09.20</span>
+            <span class="sch-state">待审核</span>
+            <span class="sch-detail">查看详情 ></span>
+        </li>
+        <li class="alertcon-list">
+            <span class="sch-name">XX驾校</span>
+            <span class="sch-time">2016.09.20</span>
+            <span class="sch-state">待审核</span>
+            <span class="sch-detail">查看详情 ></span>
+        </li>
+        <li class="alertcon-list">
+            <span class="sch-name">XX驾校</span>
+            <span class="sch-time">2016.09.20</span>
+            <span class="sch-state">待审核</span>
+            <span class="sch-detail">查看详情 ></span>
+        </li>
+        <li class="alertcon-list">
+            <span class="sch-name">XX驾校</span>
+            <span class="sch-time">2016.09.20</span>
+            <span class="sch-state">待审核</span>
+            <span class="sch-detail">查看详情 ></span>
+        </li>
+    </ul>
+    <ul class="link-box">
+        <li class="link-list">
+            <div class="link-img" id="link1">
+                <img src="../images/link1.png" alt=""/>
+            </div>
+            <div class="link-text">注册用户</div>
+        </li>
+        <li class="link-list">
+            <div class="link-img" id="link2">
+                <img src="../images/link2.png" alt=""/>
+            </div>
+            <div class="link-text">待审核驾校</div>
+            <div class="link-num">4</div>
+        </li>
+        <li class="link-list">
+            <div class="link-img" id="link3">
+                <img src="../images/link3.png" alt=""/>
+            </div>
+            <div class="link-text">待审核广告</div>
+        </li>
+        <li class="link-list">
+            <div class="link-img" id="link4">
+                <img src="../images/link4.png" alt=""/>
+            </div>
+            <div class="link-text">即将广告到期</div>
+        </li>
+        <li class="link-list">
+            <div class="link-img" id="link5">
+                <img src="../images/link5.png" alt=""/>
+            </div>
+            <div class="link-text">待结算驾校</div>
+        </li>
+        <li class="link-list">
+            <div class="link-img" id="link6">
+                <img src="../images/link6.png" alt=""/>
+            </div>
+            <div class="link-text">在线报名学员</div>
+        </li>
+    </ul>
+</div>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
